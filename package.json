@@ -1,0 +1,12 @@
+{
+  "name": "theme-shades-of-purple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=."
+  },
+  "devDependencies": {
+    "@lvce-editor/server": "^0.0.34"
+  }
+}
