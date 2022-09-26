@@ -6,7 +6,7 @@
 git clone git@github.com:lvce-editor/theme-cobalt2.git &&
 cd theme-cobalt2 &&
 npm ci &&
-npm test
+npm run dev
 ```
 
 ## Gitpod
