@@ -1,15 +1,15 @@
 {
-  "name": "theme-shades-of-cobalt2",
-  "version": "1.0.0",
+  "name": "theme-cobalt2",
+  "version": "0.0.0-dev",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=."
+    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=. --theme=cobalt2"
   },
   "devDependencies": {
     "@lvce-editor/package-extension": "^0.0.4",
-    "@lvce-editor/server": "^0.0.34"
+    "@lvce-editor/server": "^0.6.1"
   },
   "prettier": {
     "semi": false,
