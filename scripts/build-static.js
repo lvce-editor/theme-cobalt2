@@ -6,7 +6,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const root = path.join(__dirname, '..')
 const pathPrefix = process.env.PATH_PREFIX || ''
-const name = 'cobalt2'
 
 const dirents = readdirSync(
   join(root, 'node_modules', '@lvce-editor', 'server', 'static')
@@ -16,6 +15,14 @@ const isCommitHash = (dirent) => {
   return dirent.length === 7 && dirent.match(RE_COMMIT_HASH)
 }
 const commitHash = dirents.find(isCommitHash) || ''
+
+const readJson = (path) => {
+  const content = readFileSync(path, 'utf8')
+  return { ...JSON.parse(content), path }
+}
+
+const extensionJson = readJson(join(root, 'extension.json'))
+const name = extensionJson.id.slice('builtin.theme-'.length)
 
 fs.rmSync(join(root, 'dist'), { recursive: true, force: true })
 
@@ -190,11 +197,6 @@ const languageBasicsDirents = extensionDirents.filter(isLanguageBasics)
 const themeDirents = extensionDirents.filter(isTheme)
 const iconThemeDirents = extensionDirents.filter(isIconTheme)
 
-const readJson = (path) => {
-  const content = readFileSync(path, 'utf8')
-  return { ...JSON.parse(content), path }
-}
-
 const writeJson = (path, json) => {
   const content = JSON.stringify(json, null, 2) + '\n'
   writeFileSync(path, content)
@@ -243,8 +245,13 @@ for (const languageBasicsDirent of languageBasicsDirents) {
     }
   )
 }
+
+const getThemeName = (dirent) => {
+  return dirent.slice('builtin.theme-'.length)
+}
+
 for (const themeDirent of themeDirents) {
-  const themeId = themeDirent.slice('builtin.theme-'.length)
+  const themeId = getThemeName(themeDirent)
   cpSync(
     join(
       root,
@@ -258,6 +265,9 @@ for (const themeDirent of themeDirents) {
     join(root, 'dist', commitHash, 'themes', `${themeId}.json`)
   )
 }
+
+const themeIds = [...themeDirents.map(getThemeName), name]
+writeJson(join(root, 'dist', commitHash, 'config', 'themes.json'), themeIds)
 
 for (const iconThemeDirent of iconThemeDirents) {
   const iconThemeId = iconThemeDirent.slice('builtin.'.length)
