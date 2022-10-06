@@ -8,8 +8,8 @@
     "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=. --theme=cobalt2"
   },
   "devDependencies": {
-    "@lvce-editor/package-extension": "^0.0.4",
-    "@lvce-editor/server": "^0.7.10"
+    "@lvce-editor/package-extension": "^0.0.5",
+    "@lvce-editor/server": "^0.7.12"
   },
   "prettier": {
     "semi": false,
