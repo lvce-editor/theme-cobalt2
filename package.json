@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@lvce-editor/package-extension": "^0.0.4",
-    "@lvce-editor/server": "^0.6.1"
+    "@lvce-editor/server": "^0.7.10"
   },
   "prettier": {
     "semi": false,
