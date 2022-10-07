@@ -8,6 +8,11 @@
     "BadgeBackground": "#ffc600",
     "BadgeForeground": "#000",
 
+    "CompletionListBackground": "#15232d",
+    "CompletionListItemActiveBackground": "#193549",
+    "CompletionListItemHoverBackground": "#193549",
+    "CompletionListBorder": "#15232d",
+
     "ContextMenuBackground": "#122738",
     "ContextMenuForeground": "rgb(255, 255, 255)",
 
