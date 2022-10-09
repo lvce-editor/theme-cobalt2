@@ -1,5 +1,7 @@
 # Theme Cobalt2
 
+![demo](./images/demo.png)
+
 ## Contributing
 
 ```sh
