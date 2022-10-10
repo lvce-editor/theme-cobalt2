@@ -135,6 +135,14 @@
     {
       "name": "Comment",
       "foreground": "#0088FF"
+    },
+    {
+      "name": "YamlPropertyName",
+      "foreground": "#9EFFFF"
+    },
+    {
+      "name": "YamlPropertyValueString",
+      "foreground": "#A5FF90"
     }
   ]
 }
