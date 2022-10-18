@@ -2,6 +2,7 @@
   "id": "builtin.theme-cobalt2",
   "name": "Cobalt 2 Theme",
   "description": "Theme based on the the Official Cobalt2 theme by Wes Bos.",
+  "icon": "images/logo.png",
   "colorThemes": [
     {
       "id": "cobalt2",
