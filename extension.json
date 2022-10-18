@@ -1,7 +1,7 @@
 {
   "id": "builtin.theme-cobalt2",
   "name": "Cobalt 2 Theme",
-  "description": "🔥 Official theme by Wes Bos.",
+  "description": "Theme based on the the Official Cobalt2 theme by Wes Bos.",
   "colorThemes": [
     {
       "id": "cobalt2",
