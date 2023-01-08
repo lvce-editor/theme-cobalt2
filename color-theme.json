@@ -155,6 +155,10 @@
     {
       "name": "KeywordOperator",
       "foreground": "#FF9D00"
+    },
+    {
+      "name": "KeywordFunction",
+      "foreground": "#FB94FF"
     }
   ]
 }
