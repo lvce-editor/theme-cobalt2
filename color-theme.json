@@ -171,6 +171,10 @@
     {
       "name": "Heading",
       "foreground": "#FFC600"
+    },
+    {
+      "name": "KeywordNew",
+      "foreground": "#FF9D00"
     }
   ]
 }
