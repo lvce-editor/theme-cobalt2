@@ -58,10 +58,13 @@
 
     "TabsBackground": "rgb(18, 39, 56)",
 
-    "TitleBarBackground": "#15232D",
+    "TitleBarBackground": "rgb(25, 53, 73)",
     "TitleBarBorderBottomColor": "",
     "TitleBarColor": "",
-    "TitleBarColorInactive": "rgba(204, 204, 204, 0.6)"
+    "TitleBarColorInactive": "rgba(204, 204, 204, 0.6)",
+    "TitleBarActiveBackground": "#15232D",
+    "TitleBarForeground": "rgba(255, 255, 255, 0.2)",
+    "TitleBarForegroundActive": "rgb(255, 255, 255)"
   },
   "tokenColors": [
     {
