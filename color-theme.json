@@ -11,6 +11,7 @@
     "CompletionListBackground": "#15232d",
     "CompletionListItemActiveBackground": "#193549",
     "CompletionListItemHoverBackground": "#193549",
+    "CompletionListItemActiveForeground": "#aaaaaa",
     "CompletionListBorder": "#15232d",
 
     "ContextMenuBackground": "#122738",
