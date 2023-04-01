@@ -179,6 +179,10 @@
     {
       "name": "KeywordNew",
       "foreground": "#FF9D00"
+    },
+    {
+      "name": "CssVariableName",
+      "foreground": "#9effff"
     }
   ]
 }
