@@ -183,6 +183,14 @@
     {
       "name": "CssVariableName",
       "foreground": "#9effff"
+    },
+    {
+      "name": "KeywordAsync",
+      "foreground": "#FFC600"
+    },
+    {
+      "name": "KeywordAwait",
+      "foreground": "#FF9D00"
     }
   ]
 }
