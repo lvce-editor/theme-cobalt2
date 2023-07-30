@@ -193,6 +193,10 @@
     {
       "name": "KeywordAwait",
       "foreground": "#FF9D00"
+    },
+    {
+      "name": "CssPseudoSelector",
+      "foreground": "#3AD900"
     }
   ]
 }
