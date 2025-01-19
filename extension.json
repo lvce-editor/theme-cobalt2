@@ -3,6 +3,7 @@
   "name": "Cobalt 2 Theme",
   "description": "Theme based on the the Official Cobalt2 theme by Wes Bos.",
   "icon": "images/logo.png",
+  "categories": ["Themes"],
   "colorThemes": [
     {
       "id": "cobalt2",
