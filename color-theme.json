@@ -73,6 +73,7 @@
     "TitleBarForeground": "rgba(255, 255, 255, 0.2)",
     "TitleBarForegroundActive": "rgb(255, 255, 255)",
 
+    "WidgetBackground": "#15232d",
     "WorkbenchForeground": "rgb(197, 197, 197)"
   },
   "tokenColors": [
