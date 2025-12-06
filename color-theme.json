@@ -74,7 +74,10 @@
     "TitleBarForegroundActive": "rgb(255, 255, 255)",
 
     "WidgetBackground": "#15232d",
-    "WorkbenchForeground": "rgb(197, 197, 197)"
+    "WorkbenchForeground": "rgb(197, 197, 197)",
+
+    "ExtensionDetailTabSelectedBorder": "#ffc600",
+    "ExtensionDetailTabSelectedForeground": "#ffc600"
   },
   "tokenColors": [
     {
