@@ -22,6 +22,7 @@
     "EditorCursorBackground": "#ffc600",
     "EditorSelectionBackground": "#0050a4",
 
+    "FeatureSelectedBackground": "#0d3a58",
     "FocusOutline": "#0d3a58",
 
     "HighlightBackground": "rgba(255, 114, 0, 0.4)",
