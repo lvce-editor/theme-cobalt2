@@ -4,6 +4,7 @@
   "description": "Theme based on the the Official Cobalt2 theme by Wes Bos.",
   "icon": "images/logo.png",
   "categories": ["Themes"],
+  "repository": "https://github.com/lvce-editor/theme-cobalt2",
   "colorThemes": [
     {
       "id": "cobalt2",
