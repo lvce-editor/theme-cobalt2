@@ -29,6 +29,7 @@
 
     "InputBoxBackground": "#193549",
     "InputBoxForeground": "#ffc600",
+    "InputBoxPlaceholderForeground": "rgb(170, 170, 170)",
 
     "ListActiveSelectionBackground": "#193549",
     "ListActiveSelectionForeground": "#aaa",
