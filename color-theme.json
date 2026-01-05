@@ -24,6 +24,7 @@
 
     "FeatureSelectedBackground": "#0d3a58",
     "FocusOutline": "#0d3a58",
+    "InputBoxBorder": "transparent",
 
     "HighlightBackground": "rgba(255, 114, 0, 0.4)",
 
