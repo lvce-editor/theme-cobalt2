@@ -1,21 +1,21 @@
 {
   "name": "theme-cobalt2",
   "version": "0.0.0-dev",
-  "description": "",
   "type": "module",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=. --theme=cobalt2",
     "lint": "eslint . && prettier --check ."
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   },
   "devDependencies": {
     "@lvce-editor/eslint-config": "^4.3.0",
     "@lvce-editor/package-extension": "^2.2.0",
     "@lvce-editor/server": "^0.69.3",
     "eslint": "^9.39.2"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
   }
 }
