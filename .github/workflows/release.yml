@@ -65,8 +65,17 @@ jobs:
           asset_path: ${{ env.ASSET }}
           asset_name: ${{ env.ASSET }}
           asset_content_type: application/octet-stream
+
+  publish-release:
+    name: publish-release
+    needs: ['create-release', 'build-release']
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: '.nvmrc'
       - name: Publish GitHub release
-        if: matrix.os == 'ubuntu-22.04'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
