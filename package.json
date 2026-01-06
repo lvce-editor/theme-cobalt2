@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=. --theme=cobalt2"
+    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=. --theme=cobalt2",
+    "lint": "eslint . && prettier --check ."
   },
   "devDependencies": {
     "@lvce-editor/package-extension": "^2.2.0",
