@@ -1,10 +1,12 @@
 {
   "name": "theme-cobalt2",
   "version": "0.0.0-dev",
+  "license": "MIT",
   "type": "module",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
+    "build": "node scripts/build.js",
+    "build:static": "node scripts/build-static.js",
     "dev": "node ./node_modules/@lvce-editor/server/bin/server.js --only-extension=. --theme=cobalt2",
     "lint": "eslint . && prettier --check ."
   },
