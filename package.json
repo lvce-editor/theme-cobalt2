@@ -1,6 +1,9 @@
 {
   "name": "theme-cobalt2",
   "version": "0.0.0-dev",
+  "categories": [
+    "Themes"
+  ],
   "license": "MIT",
   "type": "module",
   "main": "index.js",
